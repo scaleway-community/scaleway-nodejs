@@ -1,9 +1,11 @@
-Official Node.Js image on Online Labs
+Official Node.js image on Online Labs
 ====================================
 
 Scripts to build the official Node.js image on Online Labs
 
 This image is built using [Image Tools](https://github.com/online-labs/image-tools) and depends on the official [Ubuntu](https://github.com/online-labs/image-ubuntu) image.
+
+<img src="http://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" width="400px" />
 
 ---
 
@@ -23,3 +25,7 @@ Build and write the image to /dev/nbd1 (see [documentation](https://doc.cloud.on
     $ make install
 
 Full list of commands available at: [online-labs/image-tools](https://github.com/online-labs/image-tools/tree/master#commands)
+
+---
+
+A project by [![Online Labs](https://raw.githubusercontent.com/online-labs/doc.cloud.online.net/master/www/documentation/docs_public/contents/images/logo_footer.png)](http://labs.online.net/)
