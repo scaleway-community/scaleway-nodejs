@@ -1,5 +1,5 @@
-Official Node.js image on Online Labs
-====================================
+Official Node.js image on Online Labs [![Build Status](https://travis-ci.org/online-labs/image-app-nodejs.svg?branch=master)](https://travis-ci.org/online-labs/image-app-nodejs)
+=====================================
 
 Scripts to build the official Node.js image on Online Labs
 
