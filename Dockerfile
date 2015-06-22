@@ -27,7 +27,6 @@ RUN set -xe; for package in \
       gulp \
       npm \
       pm2 \
-      yo \
     ; do npm install -g $package; done
 
 
