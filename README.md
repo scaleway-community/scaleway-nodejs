@@ -1,6 +1,6 @@
 # Official Node.js image on Scaleway
 
-[![Travis](https://img.shields.io/travis/scaleway/image-app-nodejs.svg)](https://travis-ci.org/scaleway/image-app-nodejs)
+[![Travis](https://img.shields.io/travis/scaleway-community/scaleway-nodejs.svg)](https://travis-ci.org/scaleway-community/scaleway-nodejs)
 [![Scaleway ImageHub](https://img.shields.io/badge/ImageHub-view-ff69b4.svg)](https://hub.scaleway.com/nodejs.html)
 [![Run on Scaleway](https://img.shields.io/badge/Scaleway-run-69b4ff.svg)](https://cloud.scaleway.com/#/servers/new?image=fa233358-1afc-4cfe-bfb0-3caaef7a6422)
 
