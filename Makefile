@@ -4,7 +4,7 @@ VERSION =		latest
 VERSION_ALIASES =	
 TITLE =			Node.js
 DESCRIPTION =		Node.js
-SOURCE_URL =		https://github.com/scaleway/image-app-nodejs
+SOURCE_URL =		https://github.com/scaleway-community/scaleway-nodejs
 
 IMAGE_VOLUME_SIZE =	50G
 IMAGE_BOOTSCRIPT =	stable
