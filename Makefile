@@ -1,5 +1,4 @@
-DOCKER_NAMESPACE =	armbuild/
-NAME =			scw-app-nodejs
+NAME =			nodejs
 VERSION =		latest
 VERSION_ALIASES =	
 TITLE =			Node.js
