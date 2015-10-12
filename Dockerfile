@@ -12,7 +12,7 @@ RUN curl -sL https://deb.nodesource.com/setup_4.x | sudo bash - \
  && apt-get -q update                                           \
  && apt-get -y -qq upgrade                                      \
  && apt-get -y -qq install                                      \
-        nodejs                                                  \
+        nodejs build-essential                                  \
  && apt-get clean
 
 
