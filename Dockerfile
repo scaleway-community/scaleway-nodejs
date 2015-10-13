@@ -8,11 +8,11 @@ RUN /usr/local/sbin/builder-enter
 
 
 # Install packages
-RUN curl -sL https://deb.nodesource.com/setup | sudo bash - \
- && apt-get -q update                                       \
- && apt-get -y -qq upgrade                                  \
- && apt-get -y -qq install                                  \
-        nodejs                                              \
+RUN curl -sL https://deb.nodesource.com/setup_4.x | sudo bash - \
+ && apt-get -q update                                           \
+ && apt-get -y -qq upgrade                                      \
+ && apt-get -y -qq install                                      \
+        nodejs build-essential                                  \
  && apt-get clean
 
 
