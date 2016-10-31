@@ -16,7 +16,7 @@ RUN /usr/local/sbin/builder-enter
 
 
 # Install packages
-RUN curl -sL https://deb.nodesource.com/setup_4.x | sudo bash - \
+RUN curl -sL https://deb.nodesource.com/setup_6.x | sudo bash - \
  && apt-get -q update                                           \
  && apt-get -y -qq upgrade                                      \
  && apt-get -y -qq install                                      \
