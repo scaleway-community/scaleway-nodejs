@@ -13,8 +13,7 @@ RUN /usr/local/sbin/builder-enter
 RUN curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash - \
     && apt-get install -qy nodejs
 
-RUN npm update -g \
-    && set -xe; for package in \
+RUN set -xe; for package in \
     browserify \
     coffee-script \
     express \
@@ -24,7 +23,7 @@ RUN npm update -g \
     gulp \
     pm2 \
     webpack \
-    ; do npm install -g $package; done
+    ; do npm install --unsafe-perm -g $package; done
 
 # Clean rootfs from image-builder
 RUN /usr/local/sbin/builder-leave
