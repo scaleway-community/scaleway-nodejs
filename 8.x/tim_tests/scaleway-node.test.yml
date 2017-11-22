@@ -1,0 +1,4 @@
+file:
+  - path: /usr/bin/node
+    owner: root:root
+    perm: 0775
