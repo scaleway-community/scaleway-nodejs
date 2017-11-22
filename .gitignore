@@ -12,3 +12,4 @@ sd*.raw*
 rootfs*
 */*.tar
 */*.built
+*/**/__pycache__/
