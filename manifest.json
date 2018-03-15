@@ -1,4 +1,5 @@
 {
+  "images": {
     "scaleway-node.js-stable": {
         "directory": "8.x",
         "architectures": [
@@ -6,4 +7,5 @@
         ],
         "marketplace-id":"d11d7cc2-6ec8-4f95-a286-24fb5bac9e39"
     }
+  }
 }
