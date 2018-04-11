@@ -1,6 +1,6 @@
 ## -*- docker-image-name: "scaleway/golang:latest" -*-
-ARG ARCH
-FROM scaleway/ubuntu:${ARCH}-xenial
+ARG SCW_ARCH
+FROM scaleway/ubuntu:${SCW_ARCH}-xenial
 
 
 MAINTAINER Scaleway <opensource@scaleway.com> (@scaleway)
