@@ -12,7 +12,7 @@ Launch your [Node.js](https://nodejs.org/) app on Scaleway servers in minutes.
 
 ## How to hack
 
-**From the [scaleway-cli](https://github.com/scaleway/scaleway-cli)
+**From the [scaleway-cli](https://github.com/scaleway/scaleway-cli)**
 
 ```shell
 $ scw run --commercial-type=VC1S Node_js_LTS_8_x
